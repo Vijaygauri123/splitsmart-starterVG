@@ -58,8 +58,8 @@ export default function Home() {
         {/* Header */}
         <div style={styles.header}>
           <div style={styles.brand}>
-            <div style={styles.logo}>S</div>
-            <div style={styles.title}>SplitSmart</div>
+            <div style={styles.logo}>T</div>
+            <div style={styles.title}>TTMM</div>
           </div>
           <div style={styles.groupPill}>My Group</div>
         </div>
@@ -145,9 +145,9 @@ const styles = {
     fontSize: 15, outline: 'none', background: '#f7f9fc', color: 'var(--ink)',
   },
   addBtn: {
-    flex: 'none', width: 48, borderRadius: 14, border: 'none', color: '#fff', fontSize: 24, fontWeight: 700,
-    background: 'linear-gradient(135deg, var(--blue), var(--cyan))',
-    boxShadow: '0 10px 22px -8px rgba(28,95,212,.6)',
+    flex: 'none', width: 48, borderRadius: 14, border: 'none', color: 'var(--ink)', fontSize: 24, fontWeight: 700,
+    background: '#FFD400',
+    boxShadow: '0 10px 22px -8px rgba(255,212,0,.7)',
   },
   list: { display: 'flex', flexDirection: 'column', gap: 10, minHeight: 60 },
   empty: { color: 'var(--muted)', fontSize: 14, textAlign: 'center', padding: '24px 0' },
